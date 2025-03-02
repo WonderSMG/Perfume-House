@@ -10,7 +10,7 @@ const Home = () => {
           <Products />
         </section>
 
-        <section className="border">
+        <section className="border h-[787.33px] w-[348px]">
           <Carts />
         </section>
       </main>

@@ -1,10 +1,31 @@
 import React from "react";
+import { perfumecart } from "../cart";
 
 const Carts = () => {
   return (
     <>
-      <main>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae repellat placeat cum sunt, itaque amet et ullam dolores rem tempora voluptatum? Illum, rem soluta error magni sit consequuntur dolores facilis blanditiis mollitia explicabo aliquid quidem. Reprehenderit eveniet dicta dolorem blanditiis totam fuga magnam error natus esse quisquam est distinctio itaque et, cupiditate, veritatis officiis iste autem laboriosam repellendus dolore hic.</h2>
+      <main className="container mx-auto py-[26px] px-[24px] ">
+        <h1 className="w-[300px] h-[36px] font-semibold text-[24px] leading-9 ">
+          My cart Preview
+        </h1>
+        <div className=" w-[95px] h-[98px] rounded-[3px] grid gap-[10px] py-[26px] ">
+          {perfumecart.map((perfume) => {
+            return (
+              <div>
+                <div className="relative w-[95px] h-[98px] ">
+                  <img
+                    src={perfume.image}
+                    alt="perfumeImg"
+                    className="absolute "
+                  />
+                </div>
+                <div>
+                  
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </main>
     </>
   );

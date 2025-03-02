@@ -1,7 +1,6 @@
-export const perfumes = 
+export const perfumecart =
 
-[
-    {   
+    [{   
         id:1,
         image:"https://res.cloudinary.com/eguono/image/upload/v1724144617/perfume%20house%20jpg/Ralph_Lauren_Perfume_z8v8mw.jpg",
         title:"Ralph Lauren Perfume",
@@ -38,23 +37,4 @@ export const perfumes =
         rateCount:"24",
         price:"3,000",
         "discountPrice":"4,000"        
-    },
-    {   
-        id:5,
-        image:"https://res.cloudinary.com/eguono/image/upload/v1724144617/perfume%20house%20jpg/Aventos_Blue_for_Him_sg2dxx.jpg",
-        title:"Aventos Blue for Him",
-        rating:"5.0",
-        rateCount:"24",
-        price:"3,000",
-        discountPrice:"4,000"       
-    },
-    {   
-        id:6,
-        image:"https://res.cloudinary.com/eguono/image/upload/v1724144617/perfume%20house%20jpg/Asad_Mousouff_p29rk3.jpg",
-        title:"Asad Mousouff",
-        rating:"5.0",
-        rateCount:"24",
-        price:"3,000",
-        discountPrice:"4,000"       
-    }
-]
+    }]
